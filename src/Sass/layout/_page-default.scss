@@ -1,0 +1,172 @@
+@use '../base/indexBase' as base;
+
+#container-div{
+
+    padding-top: 1rem;
+    &.light{
+        background-color: base.$light-bg;
+    }
+
+    &.dark{
+        background-color: base.$dark-bg;
+    }
+}
+
+.page-default{
+
+    // minden paragrafus elemnek legyen behuzása!
+
+    p{
+        text-indent: 1rem;
+    }
+
+    
+
+
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+    box-sizing: border-box;
+
+
+        // Betűszín, Betűcsalád?
+    &.light{
+        background-color: base.$light-bg;
+        color: base.$light-color;
+        
+        #nav-bar{            
+            background-color: base.$light-bg-nav !important;
+            *{
+                color: base.$light-color !important;
+            }
+
+
+        
+            
+        }
+    }
+    &.dark{
+        background-color: base.$dark-bg;
+        color: base.$dark-color;
+
+        #nav-bar{
+            border-top-left-radius: 0rem !important;
+            border-top-right-radius: 0rem !important;
+            background-color: base.$dark-bg-nav !important;
+            *{
+                color: base.$dark-color !important;
+            }
+            button.sing-out-btn{
+                color: black !important;
+            }
+            .navbar-toggler{
+                background-color: base.$dark-bg-headers !important;
+            }
+    
+        }
+    }
+
+
+    .web-page-header{
+        top: 0;
+        position: sticky;
+        z-index: 1000;
+    }    
+
+    header{
+        padding: 0 1rem;
+
+        ul.navbar-nav{
+
+            margin-left: 1rem;
+
+            gap:1rem;
+
+            .nav-item{
+        
+                li{
+                    
+                    a{
+                        display: inline-block;
+                        flex-grow: 0;
+                    }
+                }
+                .nav-link{
+                    display: inline-block;
+                }
+
+                    .nav-link.active{
+                   
+                        text-decoration: underline 2px solid red;
+
+                 
+                    }
+
+
+            }
+
+            // li{
+            //     // margin-left: 1rem;
+            // }     
+        }
+        
+        
+
+
+    }
+
+    footer{
+        border-top: 2px solid;
+
+        &.light{
+            border-color: base.$light-bg-nav;
+        }
+        &.dark{
+            border-color: base.$dark-color;
+        }
+
+
+    }
+
+
+}
+
+
+.alert-panel-of-first-use{
+    width: 95vw;
+    height: 95vh;
+    background-color: rgb(0, 0, 0);
+    z-index: 2000;
+    position: fixed;
+
+    top:5%;
+    left: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width:500px) and (min-height:700px) {
+        width: 60vw;
+        height: 80vh;
+        top: 10%;
+        left: 20%;
+    }
+        
+    h1,p{
+
+        font-size: 2em;
+
+        color: yellow;
+        text-shadow: 1px 1px white;
+    }
+
+    p{
+        padding: 1rem;
+        border-radius:2rem;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+
+}

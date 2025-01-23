@@ -1,0 +1,83 @@
+@use '../base/indexBase' as base;
+
+.about-us{
+
+    padding: 1rem;
+
+    img{
+        width: 100%;
+    }
+
+    h1{
+        text-align: center;
+        margin: 1rem auto;
+        font-size: 1.8em;
+    }
+
+    .portfolio-comp{
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: space-evenly;
+
+        .card{
+            min-width: 18rem;
+            max-width: 25%;
+
+            img{
+                width: 100%;
+                height: 14rem;
+                object-fit: cover;
+                object-position: top;
+            }
+
+            button{     
+                @extend%inheritAll
+            }
+
+            &.light{
+
+                .card-body{
+
+                    &:hover{
+                        background-color: base.$light-bg-nav;
+                    }
+                }
+            }
+
+            &.dark{
+                background-color: base.$dark-bg-nav;
+                color: base.$dark-color;
+
+                .card-body{
+
+                    &:hover{
+                        background-color: base.$dark-bg-headers;
+                    }
+                }
+                
+            }
+
+           
+            .card-body{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                *{
+                    text-align: center;
+                }
+            }
+
+        }
+
+    }
+
+
+    // :any-link{
+    //     @extend %inheritAll
+    //     }
+
+}

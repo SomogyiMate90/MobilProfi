@@ -1,0 +1,33 @@
+
+
+%inheritAll{
+
+        color: inherit;
+        background-color: inherit;
+        font-size: inherit;
+        font-style: inherit;
+        text-decoration: inherit;
+        border: none;
+}
+
+
+$inputBgColor: rgb(233, 231, 231);
+
+%inputBgGrey-to-Form{
+
+form{
+        input, textarea, select, option {
+               
+                background-color: $inputBgColor;
+                border: 1px solid rgb(156, 155, 155);
+               
+                &:focus{
+                        background-color: white;
+                }
+      
+
+                }
+        }
+}
+
+

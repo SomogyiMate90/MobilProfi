@@ -1,0 +1,66 @@
+@use '../base/indexBase' as base;
+
+.contatc-page{
+
+    h1{
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    p{
+        text-align: justify;
+    }
+
+    @extend %inputBgGrey-to-Form;
+
+    form{
+
+        &.dark{
+            border: 1px solid base.$dark-color;
+            padding-bottom: 1rem;
+            
+            @media screen and (min-width: 1000px) {
+                border: none;
+                padding-bottom: 0rem;
+            }
+        }
+        textarea{
+            border-radius: .25rem;
+
+            &:focus{
+                border-color: #86b7fe;
+                box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);
+                padding: 1px;
+            }
+            &:focus-visible{
+                outline: none;
+            }
+        }   
+
+
+    
+        
+    }
+
+
+    
+    .contact-form-fieldset{
+        
+        
+
+        #my-legend{
+           
+            float: none;
+            margin: 0 auto;
+        }
+
+        #my-id-style{
+            display: block;
+            float: none;
+            margin: 0 auto;
+        }
+    
+         
+    }
+
+}

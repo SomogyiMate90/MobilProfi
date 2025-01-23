@@ -1,0 +1,62 @@
+
+.loading-comp{
+
+    backdrop-filter: blur(6px);
+
+    width: 99vw;
+    height: 100vh;
+
+    background-color: hsla(0, 0%, 100%, 0.582);
+    
+    z-index: 9999;
+
+    position: absolute;
+   
+    top: 0%;
+    left: 0%;
+
+    &.dark{
+        background-color: hsla(0, 4%, 32%, 0.582);
+    }
+
+
+
+     
+}
+.failed-data-comp{
+
+
+
+    color: black;
+
+    backdrop-filter: blur(6px);
+
+    width: 30vw;
+    height: 30vh;
+
+    background-color: hsla(0, 0%, 100%, 0.582);
+    
+    z-index: 9999;
+
+    position: absolute;
+   
+    top: 35%;
+    left: 35%;
+
+    &.dark{
+        background-color: hsla(0, 4%, 32%, 0.582);
+    }
+
+}
+
+.loading-comp, .failed-data-comp{
+
+    h1{
+        text-align: center;
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

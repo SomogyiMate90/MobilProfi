@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Somogyi MátÉ",
+    "position": "Ügyvezető",
+    "description": "Somogyi Máté vagyok, a fiktív válalakozás cégvezetője.",
+    "image": "/img/kovacs_adam.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Kovács Ádám",
+    "position": "Alkalmazott",
+    "description": "Kovács Ádám vagyok, takarítási munkák tartoznak hozzám, beleértve irodák és otthonok napi karbantartását.",
+    "image": "/img/kovacs_adam.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Nagy Zsuzsanna",
+    "position": "Alkalmazott",
+    "description": "Nagy Zsuzsanna vagyok, a helyszíni klíma karbantartási munkákat végzem precíz és megbízható módon.",
+    "image": "/img/nagy_zsuzsanna.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Tóth Péter",
+    "position": "Csoportvezető",
+    "description": "Tóth Péter vagyok, a helyszíni javítások és karbantartások koordinálásáért felelek, valamint biztosítom, hogy minden feladat időben elkészüljön.",
+    "image": "/img/toth_peter.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Kiss Anna",
+    "position": "Alkalmazott",
+    "description": "Kiss Anna vagyok, autójavítási és kisebb mechanikai munkák tartoznak a feladataim közé.",
+    "image": "/img/kiss_anna.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Szabó László",
+    "position": "Alkalmazott",
+    "description": "Szabó László vagyok, klímarendszerek tisztításában és karbantartásában vagyok szakértő.",
+    "image": "/img/szabo_laszlo.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Horváth Katalin",
+    "position": "Csoportvezető",
+    "description": "Horváth Katalin vagyok, a takarítási csapat koordinálásáért és a minőségellenőrzésért felelek.",
+    "image": "/img/horvath_katalin.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Varga Tamás",
+    "position": "Alkalmazott",
+    "description": "Varga Tamás vagyok, autójavítási és diagnosztikai munkákat végzek ügyfeleink megelégedésére.",
+    "image": "/img/varga_tamas.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Molnár Eszter",
+    "position": "Alkalmazott",
+    "description": "Molnár Eszter vagyok, irodák napi takarításában és fertőtlenítésében segítek.",
+    "image": "/img/molnar_eszter.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Balogh Dániel",
+    "position": "Alkalmazott",
+    "description": "Balogh Dániel vagyok, autójavítási munkák során szervizelek és kisebb hibákat javítok.",
+    "image": "/img/balogh_daniel.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Farkas Júlia",
+    "position": "Csoportvezető",
+    "description": "Farkas Júlia vagyok, a klíma karbantartási csapat vezetéséért és az időbeosztásért felelek.",
+    "image": "/img/farkas_julia.jpg"
+  }
+]

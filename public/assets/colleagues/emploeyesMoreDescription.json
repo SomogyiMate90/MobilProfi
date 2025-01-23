@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Somogyi Máté",
+      "position": "Ügyvezető",
+      "descriptionMore": [
+        "Somogyi Máté vagyok, a MobilProfi Szolgáltatások ügyvezetője.",
+        "Évtizedek óta vezetem a vállalkozást, és mindig arra törekszem, hogy a legmagasabb szintű szolgáltatást nyújtsuk.",
+        "A cég sikeréhez vezető úton mindig fontosnak tartottam, hogy a munkatársak motiváltak legyenek, és az ügyfelek elégedettsége a legfontosabb célunk."
+      ],
+      "image": "/img/kovacs_adam.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Kovács Ádám",
+      "position": "Alkalmazott",
+      "descriptionMore": [
+        "Kovács Ádám vagyok, a takarítási munkák egyik szakértője.",
+        "Irodák, otthonok és munkahelyek napi karbantartásában dolgozom.",
+        "A napi feladataim közé tartozik a különböző felületek tisztán tartása, valamint az ügyfelek elvárásainak teljesítése minden esetben."
+      ],
+      "image": "/img/kovacs_adam.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Nagy Zsuzsanna",
+      "position": "Alkalmazott",
+      "descriptionMore": [
+        "Nagy Zsuzsanna vagyok, a helyszíni klíma karbantartási munkák specialistája.",
+        "A klímarendszerek precíz és megbízható karbantartása a feladatom.",
+        "Szeretem biztosítani, hogy minden klímaegység hatékonyan működjön, és az ügyfeleink maximálisan elégedettek legyenek a szolgáltatásokkal."
+      ],
+      "image": "/img/nagy_zsuzsanna.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Tóth Péter",
+      "position": "Csoportvezető",
+      "descriptionMore": [
+        "Tóth Péter vagyok, a helyszíni javítások és karbantartások koordinálásáért felelek.",
+        "A csapatom tagjaival együttműködve biztosítom, hogy minden munka időben és a legjobb minőségben befejeződjön.",
+        "Számomra mindig fontos, hogy minden feladatot hatékonyan és precízen végezzünk el, hiszen a siker kulcsa a részletekben rejlik."
+      ],
+      "image": "/img/toth_peter.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Kiss Anna",
+      "position": "Alkalmazott",
+      "descriptionMore": [
+        "Kiss Anna vagyok, és autójavítási és kisebb mechanikai munkák tartoznak hozzám.",
+        "Mindig nagy figyelmet fordítok a részletekre, hogy biztosítsam a gépjárművek optimális működését.",
+        "A munkám során mindig arra törekszem, hogy a legjobb megoldásokat nyújtsam, és minden autó a lehető legjobb állapotban kerüljön vissza a tulajdonosához."
+      ],
+      "image": "/img/kiss_anna.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Szabó László",
+      "position": "Alkalmazott",
+      "descriptionMore": [
+        "Szabó László vagyok, a klímarendszerek tisztításában és karbantartásában vagyok szakértő.",
+        "A feladatom a klímák hatékony működésének biztosítása és karbantartása.",
+        "A munkám során mindig a legmagasabb szintű minőségellenőrzést végzem, hogy minden klímaberendezés a lehető legjobb állapotban maradjon."
+      ],
+      "image": "/img/szabo_laszlo.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Horváth Katalin",
+      "position": "Csoportvezető",
+      "descriptionMore": [
+        "Horváth Katalin vagyok, a takarítási csapat koordinálásáért és a minőségellenőrzésért felelek.",
+        "Szeretem, ha a csapatom minden tagja maximálisan odafigyel a feladatokra, hogy az ügyfeleink mindig elégedettek legyenek.",
+        "A minőségellenőrzés számomra alapvető fontosságú, hogy a munkát minden egyes alkalommal tökéletesen végezzük el."
+      ],
+      "image": "/img/horvath_katalin.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Varga Tamás",
+      "position": "Alkalmazott",
+      "descriptionMore": [
+        "Varga Tamás vagyok, autójavítási és diagnosztikai munkákat végzek.",
+        "Folyamatosan figyelem az autók műszaki állapotát, és megbízható diagnosztikai megoldásokat alkalmazok a legjobb eredmény érdekében.",
+        "Célom, hogy a járművek megbízhatóságát és biztonságát biztosítsam minden szervizelés során."
+      ],
+      "image": "/img/varga_tamas.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Molnár Eszter",
+      "position": "Alkalmazott",
+      "descriptionMore": [
+        "Molnár Eszter vagyok, irodák napi takarításában és fertőtlenítésében segítek.",
+        "Munkám során mindig ügyelni szoktam arra, hogy a munkakörnyezet tiszta és higiénikus legyen.",
+        "Szeretek segíteni ügyfeleinknek, hogy egy friss és tiszta környezetben dolgozhassanak."
+      ],
+      "image": "/img/molnar_eszter.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Balogh Dániel",
+      "position": "Alkalmazott",
+      "descriptionMore": [
+        "Balogh Dániel vagyok, autójavítási munkák során szervizelek és kisebb hibákat javítok.",
+        "A munkám során mindig a legjobb eredményt keresem, hogy a járművek a legoptimálisabb állapotban legyenek.",
+        "Szeretem a kihívásokat, és minden alkalommal törekszem arra, hogy a legjobb megoldást nyújtsam a felmerülő problémákra."
+      ],
+      "image": "/img/balogh_daniel.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Farkas Júlia",
+      "position": "Csoportvezető",
+      "descriptionMore": [
+        "Farkas Júlia vagyok, a klíma karbantartási csapat vezetéséért és az időbeosztásért felelek.",
+        "Több mint 10 éve dolgozom a cégnél, és mindig fontosnak tartom, hogy a csapatom tagjai pontosan és időben végezzék el a feladataikat.",
+        "A munkám során a legfőbb célom, hogy minden klímaberendezés optimálisan működjön, és hogy minden ügyfél elégedett legyen a munkánkkal."
+      ],
+      "image": "/img/farkas_julia.jpg"
+    }
+  ]

@@ -1,0 +1,549 @@
+.login-page :any-link, .about-us .portfolio-comp .card button, .welcome-page :any-link {
+  color: inherit;
+  background-color: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  border: none;
+}
+
+.spreadSheet-component .in-out-panels .record-panel form input, .contatc-page form input, .spreadSheet-component .in-out-panels .record-panel form textarea, .contatc-page form textarea, .spreadSheet-component .in-out-panels .record-panel form select, .contatc-page form select, .spreadSheet-component .in-out-panels .record-panel form option, .contatc-page form option {
+  background-color: rgb(233, 231, 231);
+  border: 1px solid rgb(156, 155, 155);
+}
+.spreadSheet-component .in-out-panels .record-panel form input:focus, .contatc-page form input:focus, .spreadSheet-component .in-out-panels .record-panel form textarea:focus, .contatc-page form textarea:focus, .spreadSheet-component .in-out-panels .record-panel form select:focus, .contatc-page form select:focus, .spreadSheet-component .in-out-panels .record-panel form option:focus, .contatc-page form option:focus {
+  background-color: white;
+}
+
+#container-div {
+  padding-top: 1rem;
+}
+#container-div.light {
+  background-color: rgb(236, 240, 241);
+}
+#container-div.dark {
+  background-color: rgb(48, 48, 48);
+}
+
+.page-default {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: min-content auto min-content;
+  box-sizing: border-box;
+}
+.page-default p {
+  text-indent: 1rem;
+}
+.page-default.light {
+  background-color: rgb(236, 240, 241);
+  color: rgb(17, 17, 17);
+}
+.page-default.light #nav-bar {
+  background-color: hsl(192, 37%, 70%) !important;
+}
+.page-default.light #nav-bar * {
+  color: rgb(17, 17, 17) !important;
+}
+.page-default.dark {
+  background-color: rgb(48, 48, 48);
+  color: rgb(200, 200, 200);
+}
+.page-default.dark #nav-bar {
+  border-top-left-radius: 0rem !important;
+  border-top-right-radius: 0rem !important;
+  background-color: rgb(60, 60, 60) !important;
+}
+.page-default.dark #nav-bar * {
+  color: rgb(200, 200, 200) !important;
+}
+.page-default.dark #nav-bar button.sing-out-btn {
+  color: black !important;
+}
+.page-default.dark #nav-bar .navbar-toggler {
+  background-color: rgba(243, 91, 91, 0.541) !important;
+}
+.page-default .web-page-header {
+  top: 0;
+  position: sticky;
+  z-index: 1000;
+}
+.page-default header {
+  padding: 0 1rem;
+}
+.page-default header ul.navbar-nav {
+  margin-left: 1rem;
+  gap: 1rem;
+}
+.page-default header ul.navbar-nav .nav-item li a {
+  display: inline-block;
+  flex-grow: 0;
+}
+.page-default header ul.navbar-nav .nav-item .nav-link {
+  display: inline-block;
+}
+.page-default header ul.navbar-nav .nav-item .nav-link.active {
+  text-decoration: underline 2px solid red;
+}
+.page-default footer {
+  border-top: 2px solid;
+}
+.page-default footer.light {
+  border-color: hsl(192, 37%, 70%);
+}
+.page-default footer.dark {
+  border-color: rgb(200, 200, 200);
+}
+
+.alert-panel-of-first-use {
+  width: 95vw;
+  height: 95vh;
+  background-color: rgb(0, 0, 0);
+  z-index: 2000;
+  position: fixed;
+  top: 5%;
+  left: 2.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 500px) and (min-height: 700px) {
+  .alert-panel-of-first-use {
+    width: 60vw;
+    height: 80vh;
+    top: 10%;
+    left: 20%;
+  }
+}
+.alert-panel-of-first-use h1, .alert-panel-of-first-use p {
+  font-size: 2em;
+  color: yellow;
+  text-shadow: 1px 1px white;
+}
+.alert-panel-of-first-use p {
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.welcome-page {
+  padding: 1rem;
+}
+.welcome-page h1 {
+  margin: 1rem auto;
+  font-size: 1.8em;
+}
+.welcome-page .accordion-item {
+  background-color: inherit;
+  padding: 0 0.5rem;
+  color: inherit;
+}
+.welcome-page .accordion-item.dark .accordion-button:not(.show) {
+  background-color: rgba(243, 91, 91, 0.541) !important;
+}
+.welcome-page .accordion-item.dark .accordion-button:not(.collapsed) {
+  background-color: rgba(253, 253, 253, 0.781) !important;
+}
+.welcome-page .accordion-item .accordion-button:not(.collapsed).light {
+  background-color: hsl(192, 37%, 70%) !important;
+}
+.welcome-page .accordion-item .accordion-body figure {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media screen and (min-width: 950px) {
+  .welcome-page .accordion-item .accordion-body figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+.welcome-page .accordion-item .accordion-body figure img {
+  width: 100%;
+  max-width: 600px;
+  max-height: 350px;
+}
+@media screen and (min-width: 700px) {
+  .welcome-page .accordion-item .accordion-body figure img {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .welcome-page .accordion-item .accordion-body figure figcaption {
+    max-width: 30%;
+  }
+}
+.welcome-page section {
+  border-top: 1px solid;
+  padding-top: 0.5rem;
+}
+.welcome-page h1, .welcome-page h2 {
+  text-align: center;
+}
+.welcome-page h2 {
+  margin: 1rem 0;
+  font-size: 1.3em;
+  font-style: italic;
+}
+.welcome-page h3 {
+  font-size: 1.1em;
+}
+.welcome-page p {
+  text-align: justify;
+}
+.about-us {
+  padding: 1rem;
+}
+.about-us img {
+  width: 100%;
+}
+.about-us h1 {
+  text-align: center;
+  margin: 1rem auto;
+  font-size: 1.8em;
+}
+.about-us .portfolio-comp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+.about-us .portfolio-comp .card {
+  min-width: 18rem;
+  max-width: 25%;
+}
+.about-us .portfolio-comp .card img {
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+  object-position: top;
+}
+.about-us .portfolio-comp .card.light .card-body:hover {
+  background-color: hsl(192, 37%, 70%);
+}
+.about-us .portfolio-comp .card.dark {
+  background-color: rgb(60, 60, 60);
+  color: rgb(200, 200, 200);
+}
+.about-us .portfolio-comp .card.dark .card-body:hover {
+  background-color: rgba(243, 91, 91, 0.541);
+}
+.about-us .portfolio-comp .card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-us .portfolio-comp .card .card-body * {
+  text-align: center;
+}
+
+.loading-comp {
+  backdrop-filter: blur(6px);
+  width: 99vw;
+  height: 100vh;
+  background-color: hsla(0, 0%, 100%, 0.582);
+  z-index: 9999;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.loading-comp.dark {
+  background-color: hsla(0, 4%, 32%, 0.582);
+}
+
+.failed-data-comp {
+  color: black;
+  backdrop-filter: blur(6px);
+  width: 30vw;
+  height: 30vh;
+  background-color: hsla(0, 0%, 100%, 0.582);
+  z-index: 9999;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+.failed-data-comp.dark {
+  background-color: hsla(0, 4%, 32%, 0.582);
+}
+
+.loading-comp, .failed-data-comp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loading-comp h1, .failed-data-comp h1 {
+  text-align: center;
+}
+
+.login-page {
+  max-height: 70vh;
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  margin: 1rem auto;
+}
+.login-page h2 {
+  text-align: center;
+  align-self: center;
+}
+.login-page form {
+  padding: 1rem;
+  border-radius: 1rem;
+}
+@media screen and (min-width: 550px) {
+  .login-page form {
+    border: 1px solid black;
+  }
+}
+.login-page.dark form {
+  background-color: rgb(60, 60, 60);
+}
+.login-page.dark form button {
+  display: block;
+  margin: 0 auto;
+}
+.login-page.dark form .my-form-text {
+  font-size: 0.9em;
+  margin-top: 0.2rem;
+}
+.login-page.dark form .form-control {
+  background-color: rgba(243, 91, 91, 0.541);
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.login-page section {
+  align-self: flex-end;
+}
+.contatc-page h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.contatc-page p {
+  text-align: justify;
+}
+.contatc-page form.dark {
+  border: 1px solid rgb(200, 200, 200);
+  padding-bottom: 1rem;
+}
+@media screen and (min-width: 1000px) {
+  .contatc-page form.dark {
+    border: none;
+    padding-bottom: 0rem;
+  }
+}
+.contatc-page form textarea {
+  border-radius: 0.25rem;
+}
+.contatc-page form textarea:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  padding: 1px;
+}
+.contatc-page form textarea:focus-visible {
+  outline: none;
+}
+.contatc-page .contact-form-fieldset #my-legend {
+  float: none;
+  margin: 0 auto;
+}
+.contatc-page .contact-form-fieldset #my-id-style {
+  display: block;
+  float: none;
+  margin: 0 auto;
+}
+
+.colleague-page {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.colleague-page .hero-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.colleague-page .hero-img .hero-pic {
+  width: 100%;
+  max-width: 700px;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 1rem;
+}
+.colleague-page h1 {
+  text-align: center;
+}
+.colleague-page h3 {
+  text-decoration: underline;
+}
+.colleague-page h5 {
+  text-indent: 1rem;
+}
+.colleague-page .box-shadow {
+  margin: 1rem 0;
+}
+@media screen and (min-width: 600px) {
+  .colleague-page .box-shadow.light {
+    box-shadow: 0px 0px 10px black;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .colleague-page .box-shadow.dark {
+    background-color: rgb(60, 60, 60);
+    box-shadow: 0px 0px 10px white;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+  }
+}
+
+.spreadSheet-component {
+  padding: 1rem;
+}
+.spreadSheet-component h1 {
+  text-align: center;
+}
+.spreadSheet-component .in-out-panels {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: 100%;
+}
+.spreadSheet-component .in-out-panels .sheet-panel {
+  padding: 1rem 0;
+  max-height: 40%;
+}
+@media screen and (max-width: 850px) {
+  .spreadSheet-component .in-out-panels .sheet-panel {
+    width: 92vw;
+    overflow-x: scroll;
+  }
+}
+.spreadSheet-component .in-out-panels .sheet-panel th {
+  text-align: center;
+}
+.spreadSheet-component .in-out-panels .sheet-panel tr td.srsz {
+  max-width: 50px;
+  font-size: 0.3em;
+}
+.spreadSheet-component .in-out-panels .sheet-panel tr td, .spreadSheet-component .in-out-panels .sheet-panel tr th {
+  text-align: center;
+  border-right: 0.5px solid hsla(0, 0%, 0%, 0.219);
+}
+.spreadSheet-component .in-out-panels .sheet-panel tr.expired td {
+  background-color: rgba(190, 121, 121, 0.842);
+}
+.spreadSheet-component .in-out-panels .sheet-panel tr.finished td {
+  background-color: hsla(93, 42%, 45%, 0.815);
+}
+.spreadSheet-component .in-out-panels .sheet-panel .popUp-parent {
+  position: relative;
+}
+.spreadSheet-component .in-out-panels .sheet-panel .popUp-parent:hover {
+  text-decoration: underline 2px red;
+  cursor: help;
+}
+.spreadSheet-component .in-out-panels .sheet-panel .popUp-parent div.no-show {
+  transform: scale(0.00001);
+  transition-duration: 2s;
+  opacity: 0.2;
+  z-index: 200;
+  display: inline-block;
+  position: absolute;
+  left: -70%;
+  bottom: 50%;
+}
+.spreadSheet-component .in-out-panels .sheet-panel .popUp-parent div.show {
+  transform: scale(1.3);
+  transition-duration: 3s;
+  display: inline;
+  position: absolute;
+  bottom: 0%;
+  left: 80%;
+  opacity: 1;
+  transition-duration: 2s;
+  transform: translateX(100%);
+}
+.spreadSheet-component .in-out-panels .sheet-panel .popUp-parent div.clicked-show {
+  display: inline;
+  position: absolute;
+  bottom: 100%;
+  left: 80% !important;
+  z-index: 2100;
+  opacity: 1;
+  transition-duration: 2s;
+  transform: translateX(-150%);
+}
+.spreadSheet-component .in-out-panels .sheet-panel .popUp-parent div iframe {
+  border: 2px solid red;
+  max-height: 25vh;
+  max-width: 25vw;
+}
+.spreadSheet-component .in-out-panels .record-panel {
+  width: 100%;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+@media screen and (max-width: 850px) {
+  .spreadSheet-component .in-out-panels .record-panel {
+    width: 92vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .spreadSheet-component .in-out-panels .record-panel .my-inlines-block {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+.spreadSheet-component .in-out-panels .record-panel.dark {
+  border-color: rgb(200, 200, 200);
+}
+.spreadSheet-component .in-out-panels .record-panel.light {
+  border-color: rgb(17, 17, 17);
+}
+.spreadSheet-component .in-out-panels .record-panel .my-inlines-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+.spreadSheet-component .in-out-panels .record-panel .my-btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+.spreadSheet-component .offcanvas {
+  background-color: hsla(0, 0%, 96%, 0.219);
+  background-image: url("/public//assets//img/modul_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.spreadSheet-component .offcanvas .offcanvas-content {
+  background-color: rgba(245, 245, 245, 0.7);
+  min-height: 100%;
+}
+.spreadSheet-component .offcanvas .offcanvas-content .offcanvas-body section.message {
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px black;
+  background-color: rgba(245, 245, 245, 0.85);
+}
+
+@keyframes swimRightToLeft {}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=indexSass.css.map */
