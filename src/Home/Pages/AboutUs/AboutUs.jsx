@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useImmer } from "use-immer";
 import * as SharedComp from "../../../Shared/Components/indexShares.js"
 import metaAndOpengraphTag from "../../../Functions/metaAndOpengraphTag.js";
@@ -58,7 +58,10 @@ const AboutUs = () =>{
         <SharedComp.MyHelmetComp CaughtData={metaTags}/>
      
         <main className="about-us">
-            <img src="/assets/img/GroupPic.jpg" alt="Csoprtkép" />
+            <h1>Ismerje meg csapatunkat!</h1>
+            <div className="group-pic">
+                <img src="/assets/img/GroupPic.jpg" alt="Csoprtkép" />
+            </div>
             {
                 // fullfiled === false ? <span></span> : <h1>Munkatársak</h1>
             }

@@ -61,15 +61,16 @@ const SpreadSheet = ({ isLog }) => {
    */
   const handleRecordDatas = async (event) => {
     const Obj = getDataForm(event, "keyMergedArrayinObj");
-    console.log(Obj);
+    // console.log(Obj);
     const dataBase = getAppdb();
     const eventSh = doc(dataBase, "spreadSheet/eventSh");
     await updateDoc(eventSh, Obj);
     SetEvent(!refresh);
+    setClickedItem([])
   };
 
   const handleDeleteItem = async (event) => {
-    console.log(event.target);
+    // console.log(event.target);
     /**
      * @type {HTMLButtonElement}
      */
@@ -81,6 +82,7 @@ const SpreadSheet = ({ isLog }) => {
       [btnElDataKey]: deleteField(),
     });
     SetEvent(!refresh);
+    setClickedItem([])
   };
 
 

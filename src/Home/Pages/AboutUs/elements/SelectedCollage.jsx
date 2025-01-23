@@ -5,7 +5,7 @@ import MyHelmetComp from "../../../../Shared/Components/MyHelmetComp";
 
 const SelectedCollage = ({dataComponentArray}) => {
     const  theme = useContext(ThemeContext)
-    console.log(dataComponentArray)
+    // console.log(dataComponentArray)
 
     const [selectedMunkatars,imgSrc,cardMetTags] =dataComponentArray
 

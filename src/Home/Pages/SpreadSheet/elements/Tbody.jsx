@@ -24,10 +24,10 @@ const Tbody = ({TaskArray, RefreshDatas})=>{
         const arrayContent = uti.splitTextToArray(contentString,"|");
         const expirationDate = new Date(arrayContent[3]);
 
-        if(expirationDate < now && arrayContent[5] !== 'Kész'){
+        if((expirationDate < now) && (arrayContent[5] !== 'Kész')){
             timLeft = 'expired'
          }
-         if(arrayContent[5]==='Kész'){
+        else if(arrayContent[5]==='Kész'){
             timLeft = "finished"
          }
 

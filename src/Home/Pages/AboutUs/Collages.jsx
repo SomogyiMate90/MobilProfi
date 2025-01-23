@@ -100,6 +100,7 @@ const Collages = () => {
   return (
   
     <main className={`colleague-page ${theme} container my-lg-auto`}>
+      <h1>Bemutatkozás</h1>
       <div className="row gap-xl-5">
         {selectedCaracter.length === 0 ? (
           <LoadingComp displayText="Töltés..." />

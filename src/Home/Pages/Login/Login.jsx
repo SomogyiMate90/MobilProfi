@@ -44,7 +44,7 @@ const Login = ({useStatLog}) =>{
     <MyHelmetComp CaughtData={metaTags}/>
 
     <main className={`login-page ${theme}`}>
-      <h2>Bejelentkezés</h2>
+      <h1>Bejelentkezés</h1>
       <form onSubmit={(event)=>handleLogin(event)}>
         <div className="mb-3">
           <label htmlFor="exampleInputEmail1" className="form-label">
