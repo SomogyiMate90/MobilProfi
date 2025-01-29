@@ -3,7 +3,7 @@ import getFetch from "../../../Functions/getFetch";
 import { useContext, useEffect } from "react";
 import { ThemeContext } from "../../mainTheme";
 import SelectedCollage from "./elements/SelectedCollage";
-import hunTextToEngText from "../../../Functions/hunTextToEngText";
+import hunTextToEngText from "../../../Functions/Utils/hunTextToEngText.js";
 import LoadingComp from "../../../Shared/Components/LoadingComp";
 
 const Collages = () => {
@@ -100,7 +100,8 @@ const Collages = () => {
   return (
   
     <main className={`colleague-page ${theme} container my-lg-auto`}>
-      <h1>Bemutatkozás</h1>
+      
+      {munkatarsakArray.length === 0 ? <span></span> : <h1>Bemutatkozás</h1>}
       <div className="row gap-xl-5">
         {selectedCaracter.length === 0 ? (
           <LoadingComp displayText="Töltés..." />

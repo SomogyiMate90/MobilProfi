@@ -539,6 +539,13 @@
   background-color: rgba(245, 245, 245, 0.7);
   min-height: 100%;
 }
+.spreadSheet-component .offcanvas .offcanvas-content .offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: 90%;
+  padding-bottom: 2rem;
+}
 .spreadSheet-component .offcanvas .offcanvas-content .offcanvas-body section.message {
   padding: 1rem;
   border-radius: 2rem;

@@ -30,7 +30,7 @@ const FormSection = () =>{
     
         setTimeout(()=>{
             setStatusComp("uploaded");
-            console.log("Az adatfeltöltés sikeres");
+            // console.log("Az adatfeltöltés sikeres");
             setTimeout(()=>{
             setRender(render+1); // mezők ürítése
             setStatusComp("def")

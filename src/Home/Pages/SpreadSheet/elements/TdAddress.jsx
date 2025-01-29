@@ -53,7 +53,7 @@ const TdAddress = ({content,setClickedItem, addressFullArray})=>{
 return(
 
 
-    <td title="Egyy kattintás rögzíti a térképet, kettő kattintás beemeli az adatokat az eseménykezelő adatlapba" data-mytext={content} className="popUp-parent"    key={`${Math.random()}-${content}`}
+    <td title="Egy kattintás rögzíti a térképet, kettő kattintás beemeli az adatokat az eseménykezelő adatlapba" data-mytext={content} className="popUp-parent"    key={`${Math.random()}-${content}`}
                 // számítógép
                 onMouseOver={(event)=>handlePopUp(event,"show","no-show",false)} 
                 onMouseLeave={(event)=>handlePopUp(event,"no-show","show")}

@@ -77,10 +77,10 @@ const MessageCanvasPartBody = ({messagearray,RefreshDatas}) =>{
 
 
     return(
-        <div>
+        <>
         {redner === false ? notLoadComp  : loadComp}
         {text}
-        </div>
+        </>
     )
 
 

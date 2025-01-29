@@ -3,11 +3,16 @@ import { addDoc, collection } from "firebase/firestore";
 
 
 const dataToUpdateFirebaseDataBase = async (oneGreatObj) =>{
-    const dataBase = getAppdb();
-    const Cmessage =  collection(dataBase,"CustomersMessages");
-    await addDoc(Cmessage,oneGreatObj);
-    // console.log(addNewDoc);
-    // console.log(oneGreatObj);
+
+    try{
+        const dataBase = getAppdb();
+        const Cmessage =  collection(dataBase,"CustomersMessages");
+        await addDoc(Cmessage,oneGreatObj);
+        
+    }
+    catch(e){
+        alert('Hálózati hiba történt!\n\n Kérem ismételje meg a kitöltés újra!')
+    }
    
 }
 

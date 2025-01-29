@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import hunTextToEngText from "../../../../Functions/hunTextToEngText";
+import hunTextToEngText from "../../../../Functions/Utils/hunTextToEngText.js";
 
 const CardComp = ({dataOfCards,setLocationFun}) =>{
 

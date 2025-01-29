@@ -29,6 +29,9 @@ const Tbody = ({TaskArray, RefreshDatas})=>{
          }
         else if(arrayContent[5]==='Kész'){
             timLeft = "finished"
+        }
+         else{
+            timLeft = "";
          }
 
         return(

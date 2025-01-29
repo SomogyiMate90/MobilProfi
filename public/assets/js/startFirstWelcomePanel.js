@@ -3,18 +3,14 @@ function startFirstWelcomePanel(){
 
     console.log("lefutott a defer script");
 
+    const myCookie = document.cookie
+    // console.log(document.cookie)
+    // console.log(typeof document.cookie)
 
-    const happenedAlrediDivKey = 'happanedDiv';
-    const happanedAlrediDivValue = 'isRaned'
+    if(myCookie !== "name=firstRun"){
 
-    const isRanedScript = localStorage.getItem(happenedAlrediDivKey);
-
-    if(isRanedScript !== happanedAlrediDivValue){
-
-        // console.log(isRanedScript)
-
-
-        localStorage.setItem(happenedAlrediDivKey,happanedAlrediDivValue);
+        // console.log('isRanedScript Belépett az if blokba')
+        document.cookie="name=firstRun; SameSite=Strict; max-age=3600";  // Óránkénti figyelmezető üzenet
     
         const bodyEl = document.getElementById('body-element');
         

@@ -26,8 +26,6 @@ function getDataForm(event,instructions){
     }
     else if(instructions==='keyMergedArrayinObj'){
 
-        // console.log(formArray)
-
         let array =[];
         let key;
 
@@ -47,13 +45,8 @@ function getDataForm(event,instructions){
             }
         });
 
-        // console.log(array)
-
         const mergedString = mergedArrayToText(array,"|")
-
         returnedData = {[key]:mergedString}
-
-
     }
 
     // console.log(returnedData);
