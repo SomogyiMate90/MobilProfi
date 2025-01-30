@@ -76,7 +76,7 @@ const Login = ({useStatLog}) =>{
             // defaultValue="Jelszo01"
           />
         </div>
-        <button disabled={false} type="submit" className="btn btn-primary">
+        <button disabled={false} type="submit" className="btn btn-primary d-block mx-auto">
           Bejelentkezés
         </button>
       </form>

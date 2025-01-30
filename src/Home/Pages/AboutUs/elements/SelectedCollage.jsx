@@ -28,7 +28,7 @@ const SelectedCollage = ({dataComponentArray}) => {
           {selectedMunkatars.descriptionMore.map((item, index) => {
                       return <p key={index}>{item}</p>;
                     })}
-          <Link className="btn btn-primary align-self-end" to="/Rólunk">
+          <Link className="btn btn-primary align-self-end me-2" to="/Rólunk">
             Vissza
           </Link>
         </section>
