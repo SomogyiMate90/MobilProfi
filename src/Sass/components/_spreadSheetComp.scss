@@ -9,10 +9,6 @@
         text-align: center;
     }
 
-  
-
-
-
     .in-out-panels{
         display: flex;
         flex-direction: column;
@@ -35,13 +31,10 @@
                 overflow-x:scroll;
                 
             }
-
            
 
             th{
                 text-align: center;
-  
-
             }
 
             tr{
@@ -65,10 +58,7 @@
                 td{
                     background-color: hsla(93, 42%, 45%, 0.815);
                 }
-            }
-
-       
-          
+            }       
 
 
         .popUp-parent{
@@ -106,11 +96,7 @@
                     
                     bottom: 0%;
                     left: 80%;
-                    opacity: 1;
-                  
-
-                    
-                    
+                    opacity: 1;               
                     transition-duration: 2s;
                     transform: translateX(100%)
                 }
@@ -122,24 +108,15 @@
                     bottom: 100%;
                     left: 80% !important;
                     z-index: 2100;
-                    opacity: 1;
-
-                    
+                    opacity: 1;                 
                     transition-duration: 2s;
                     transform: translateX(-150%);
                 }
         
-
-
                 iframe{
                     border: 2px solid red;
                     max-height: 25vh;
                     max-width: 25vw;
-
-               
-
-                    
-
                 }
 
 
@@ -199,8 +176,6 @@
     }
     }
 
-
-
     .offcanvas{
     background-color: hsla(0, 0%, 96%, 0.219);
     background-image: url('/public//assets//img/modul_bg.jpg');
@@ -233,20 +208,4 @@
 
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-}
-
-@keyframes swimRightToLeft{
-    
-    
 }

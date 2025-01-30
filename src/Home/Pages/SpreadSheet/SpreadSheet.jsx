@@ -12,7 +12,7 @@ import {
 import { useImmer } from "use-immer";
 import RecordPanel from "./elements/RecodPanel";
 import getDataForm from "../../../Functions/Utils/getDataForm";
-import { useNavigate, useNavigation } from "react-router";
+import { useNavigate } from "react-router";
 
 const SpreadSheet = ({ isLog }) => {
   const [messagesAndTaskes, setmsAndts] = useImmer();
@@ -26,7 +26,7 @@ const SpreadSheet = ({ isLog }) => {
 
   useEffect(() => {
     setTimeout(() => {
-      const retunredData = eventTasks();
+     eventTasks();
     }, 300);
   }, [refresh]);
 
@@ -107,7 +107,7 @@ const SpreadSheet = ({ isLog }) => {
             FiraBaseData={messagesAndTaskes}
             RefreshDatas={{ event: refresh, SetEvent, setClickedItem }}
           />
-          <RecordPanel
+          <RecordPanel key={refresh}
             clickedItem={clickedItem}
             setClickedItem={setClickedItem}
             handleDeleteItem={handleDeleteItem}

@@ -22,20 +22,6 @@ const metaAndOpengraphTag = {
             ["og:image:alt","Csoportkép" ],
             ["og:image:type","image/jpg" ],
 
-
-
-/*
-
-            Twitter beállítás még nincs kész teljesen !
-
-            ["twitter:card","summary_large_image"],
-            ["twitter:domain","mobilprofi-6e8cc.web.app"],
-            ["twitter:url", "https://mobilprofi-6e8cc.web.app/assets/img/GroupPic.jpg"],
-            ["twitter:title ","MobilProfi - időben helyszínen"],
-            ["twitter:description","Helyszíni autójavítás, takarítás, klímakarbantartás"],
-            ["twitter:image","https://mobilprofi-6e8cc.web.app/assets/img/GroupPic.jpg"]
-
-*/
         ]
     },
 

@@ -15,7 +15,7 @@ const FormSection = () =>{
         break;
         case "uploading" : statusComp = <LoadingComp displayText={"Adatok feltöltése megkezdődött"}/>;
         break;
-        case "uploaded" : statusComp = <LoadingComp displayText={"Adatok feltöltése sikeres. Hamarossan keresni fogjuk..."}/>;
+        case "uploaded" : statusComp = <LoadingComp displayText={["Adatok feltöltése sikeres.","Hamarossan keresni fogjuk..."]}/>;
         break;
         default : statusComp =  <span></span>;
     }
@@ -57,7 +57,7 @@ const FormSection = () =>{
                       type="text"
                       id="customerName"
                       name="customerName"
-                      placeholder="Minta János"
+                      // placeholder="Minta János"
                       required
                       maxLength={20}
                       
@@ -74,7 +74,7 @@ const FormSection = () =>{
                       type="number"
                       id="zipCode"
                       name="zipCode"
-                      placeholder="1165"
+                      // placeholder="1165"
                       min={1000}
                       max={9999}
                       required
@@ -90,7 +90,7 @@ const FormSection = () =>{
                       type="text"
                       id="localAddres"
                       name="localAddres"
-                      placeholder="Budapest XVI. ker, Veres Péter út 1"
+                      // placeholder="Budapest XVI. ker, Veres Péter út 1"
                       required
                       maxLength={60}
               

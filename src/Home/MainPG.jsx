@@ -17,10 +17,8 @@ const MainPG = () => {
   return (
     <BrowserRouter>
       <ThemeContext.Provider value={actualTheme}>
-        {/* <div onClick={navBarBubling} id="container-div" className={`${actualTheme} container-fluid p-0`}> */}
         <div onClick={(event)=>navBarCollapse(event)} id="container-div" className={`${actualTheme} container-fluid p-0`}>
           <div className={`page-default col-xxl-10  mx-auto ${actualTheme}`}>
-            {/* <layout.Header setTheme={setTheme} LogValue={isLogin} setLogOut={setLogin} changeLoginKey={setKey}/> */}
             <layout.Header setTheme={setTheme} Logfun={{isLog, setLog}}/>
             <ComponentSelector useStatLog={[isLog, setLog]}/>
             

@@ -33,7 +33,6 @@ const MyHelmetComp = ({ CaughtData }) => {
         <meta name="description" content={metaNameObj?.description || ""}/>
         <meta nama="keywords" content={metaNameObj?.keywords || ""} />
         <meta name="robots" content={metaNameObj?.robots || "index,follow"}/>
-        {/* <link rel="canonical" href="https://mobilprofi-6e8cc.web.app/" /> */}
         {
             metaPropertyArray?.map( (item,index)=>{
                 return(

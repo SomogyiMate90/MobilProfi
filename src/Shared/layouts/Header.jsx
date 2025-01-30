@@ -55,7 +55,7 @@ const Header = ({ setTheme, Logfun }) => {
         className="navbar navbar-expand-lg bg-body-tertiary rounded-2"
       >
         <div id="nav-2-id" className="container-fluid">
-          <button
+          <button className="btn btn-primary-outline border border-1"
             onClick={() =>
               theme === "light"
                 ? (() => {

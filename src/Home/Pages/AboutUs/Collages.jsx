@@ -21,7 +21,8 @@ const Collages = () => {
       if (badArray) {
         throw new Error("Rosz adat lekérés");
       }
-    } catch {
+    } 
+    catch {
       setMunkatarsArray([]);
     }
   };

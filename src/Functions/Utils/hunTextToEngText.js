@@ -9,6 +9,9 @@ function hunTextToEngText(hunText){
         
     if(cathedType !== 'string'){
         throw new Error (`A függvény nem szöveget, hanem "${cathedType}" tipusú argomentumot kapott`)  
+    }
+    else if(hunText === ""){
+        return hunText;
     } 
         const textInArray = hunText.split("");
     
@@ -32,7 +35,7 @@ function hunTextToEngText(hunText){
                 break;
                 case lowerLetter === "ó"|| lowerLetter === "ö" || lowerLetter === "ő" : letter = "o";
                 break;
-                case lowerLetter === "ú"|| lowerLetter === "ü" : letter = "u";
+                case lowerLetter === "ú"|| lowerLetter === "ü" || lowerLetter === "ű" : letter = "u";
                 break;
                 default: letter =  item.replace(new RegExp(/W/,""))
             }
@@ -47,3 +50,7 @@ function hunTextToEngText(hunText){
 }
 
 export default hunTextToEngText;
+
+// module.exports = {
+//     hunTextToEngText
+// }

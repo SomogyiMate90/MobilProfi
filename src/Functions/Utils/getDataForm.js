@@ -7,6 +7,8 @@ import { v4 as uuidv4 } from 'uuid';
  */
 function getDataForm(event,instructions){
     event.preventDefault();
+    if(!(event.target instanceof HTMLFormElement)) return;
+
     const formData = new FormData(event.target);
     const formArray = Array.from(formData.entries());
 
@@ -48,9 +50,6 @@ function getDataForm(event,instructions){
         const mergedString = mergedArrayToText(array,"|")
         returnedData = {[key]:mergedString}
     }
-
-    // console.log(returnedData);
-
 
     return returnedData;
 }

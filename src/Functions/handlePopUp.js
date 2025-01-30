@@ -29,7 +29,7 @@ function handlePopUp(event,addClassName,removeClassName,boolean=false){
         popUpDivEl.classList.add(addClassName);
 
         setTimeout(()=>{
-            console.log('Letelt a ciklus')
+            // console.log('Letelt a ciklus')
             popUpDivEl.classList.remove(addClassName);
             popUpDivEl.classList.add(removeClassName);
 
