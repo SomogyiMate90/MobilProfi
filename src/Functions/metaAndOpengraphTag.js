@@ -6,7 +6,7 @@ const metaAndOpengraphTag = {
         metaNameObj : {
             title: "MobilProfi - időben helyszínen",
             description : 'Üdvözöljük a MobilProfi Szolgáltatásoknál! Helyszíni autójavítás, takarítás, klímakarbantartás gyorsan, szakértőktől, közvetlenül otthonába, munkahelyére.',
-            keywords : 'mobil, mobil profi,profi mobil,mobil autójavítás, helyszíni autószerelés, professzionális takarítás, klímakarbantartás, Budapest',
+            keywords : 'mobil,mobilprofi,mobil profi,profi mobil,mobil autójavítás,autójavítás,helyszíni autószerelés,takarítás,takarítás Budapest,professzionális takarítás, klímakarbantartás, Budapest"',
             robots : 'index,follow'
         },
         metaPropertyArray: [
@@ -30,7 +30,7 @@ const metaAndOpengraphTag = {
         metaNameObj : {
             title: "MobilProfi - Rólunk",
             description : 'Ismerje meg a MobilProfi Szolgáltatásokat! Ismerjen meg minket, vállalkozásunk történetét és azt, hogyan nyújtunk magas színvonalú helyszíni autójavítást, takarítást és klímakarbantartást.',
-            keywords : 'MobilProfi,mobil profi,mobil profi rólunk,profi autójavítás,helyszíni takarítás,gyors klímakarbantartás,mobil helyszíni szolgáltatás',
+            keywords : 'MobilProfi,mobilporfi,mobil profi,mobil profi rólunk,profi autójavítás,helyszíni takarítás,gyors klímakarbantartás,mobil helyszíni szolgáltatás',
             robots : 'index,follow'
         },
         metaPropertyArray: [
