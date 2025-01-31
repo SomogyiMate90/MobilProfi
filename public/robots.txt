@@ -1,7 +1,8 @@
 
 User-agent: *
 Allow: /
-Disallow: /assets
-Disallow: /Bejelentkezés
-Disallow: /Munkafüzet
+Disallow: /assets/
+Disallow: /Bejelentkezés/
+Disallow: /Munkafüzet/
+Sitemap: https://mobilprofi-6e8cc.web.app/sitemap.xml
 

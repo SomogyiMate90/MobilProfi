@@ -20,7 +20,7 @@ function startFirstWelcomePanel(){
     
         alertDiv.classList.add('alert-panel-of-first-use');
         const h1text = 'Figyelem!'
-        const pText1 = 'Ez a weboldal egy webfejlesztői projektmunka';
+        const pText1 = 'Ez a weboldal egy fortendfejleszőti projektmunka';
         const pText2 = 'A weboldalon található cég a képzelet szüleménye.\nA folytatáshoz kattints a gombra';
     
         const newH1El = document.createElement('h1');
